@@ -8,7 +8,7 @@ def main():
     st.title("スキル評価アプリ")
 
     # JSONデータの読み込み
-    with open("checklist10.json", "r", encoding="utf-8") as f:
+    with open("checklist.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 
     # ユーザーの評価結果を保存する辞書
